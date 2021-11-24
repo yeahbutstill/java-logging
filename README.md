@@ -35,3 +35,15 @@ Secara default, menggunakan logback tidak dibutuhkan configuration. Namun kadang
 - Level Configuration, secara default saat membuat file konfigurasi, logback akan membaca level yang harus dikeluarkan dari file logback. Jika tidak ada, maka otomatis tidak akan keluar. Oleh karena itu, hal pertama yang perlu dilakukan adalah, menambahkan logger level, untuk memberitahu level mana yang ingin dikeluarkan di log file.
 http://logback.qos.ch/manual/configuration.html
 - Logger Package, terkadang ingin membuat logging level berbeda-beda untuk package, misalnya untuk package framework, ingin digunakan warn, tapi untuk package aplikasi kita ingin gunakan info. Secara default, sebelumnya sudah dibuat root, root adalah default fallback semua package level ketika tidak dibutuhkan konfigurasi secara spesifik. Namun jika ingin juga bisa membuat logger level lebih dari satu, tinggal gunakan prefix package nya saja. Artinya semua package di dalamnya akan ikut ke logger level tersebut.
+
+## Appender
+Saat melakukan logging, bisa menentukan destinasi log file yang akan dibuat, atau dinamakan Appender. Logback sudah menyediakan banyak sekali appender, jadi sebenarnya tidak perlu membuat appender secara manual.
+http://logback.qos.ch/manual/appenders.html
+- Console Appender, Appender yang paling sederhana adalah Console. Dimana appender ini hanya meneruskan log event yang di kirim menggunakan logger ke dalam console atau System.out.
+ConsoleAppender sangat cocok ketika applikasi yang dibuat dibungkus dalam docker atau kubernetes misalnya, karena cukup menampilkan di console dan secara automatis log bisa diambil oleh docker dan kubernetes.
+- File Appender, merupakan appender yang mengirim log event ke file, sangat cocok ketika masih menggunakan VM untuk deploy aplikasi, jadi semua log event akan disimpan di file.
+- RollingFileAppender
+Terkadang saat menyimpan semua log event di file, lama-lama file tersebut akan terlalu besar. Logback menyediakan RollingFileAppender, yaitu appender yang menyimpan data nya di file, namun bisa dilakukan rolling, artinya per waktu tertentu akan dibuatkan file baru. Selain itu bisa juga set maksimal ukuran file nya sehingga ketika sudah mencapai batas maksimal, akan dibuatkan file baru lagi. Ini lebih direkomendasikan untuk digunakan dibandingkan menggunakan FileAppender.
+
+- ## Layout
+Layout adalah 

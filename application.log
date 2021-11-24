@@ -1,0 +1,5 @@
+05:37:19.217 [main] TRACE com.yeahbutstill.LevelTest - Trace
+05:37:19.223 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+05:37:19.223 [main] INFO  com.yeahbutstill.LevelTest - Info
+05:37:19.224 [main] WARN  com.yeahbutstill.LevelTest - Warning
+05:37:19.224 [main] ERROR com.yeahbutstill.LevelTest - Error
