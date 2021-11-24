@@ -21,3 +21,11 @@ Log memiliki banyak level, Level merupakan jenis informasi log, Level itu bertin
 | info  | Untuk menambahkan informasi                               |
 | warn  | Untuk menambahkan peringatan                               |
 | error | Untuk menambahkan error                               |
+- ### Log Format
+Menggunakan parameter saat melakukan logging biasanya akan membuat string concat untuk membuat pesan logging nya, namun SLF4j sudah menyediakan log format, menggunakan beberapa method overloading.
+
+| Method | Keterangan                          |
+|-------|:-----------------------------------:|
+| level(String) | Melakukan logging berisi string |
+| level(String, Object....) | Melakukan logging dengan parameter, gunakan {} sebagai parameter nya                               |
+| level(String, Throwable)  | Melakukan logging dengan menambahkan stack trace error                               |
