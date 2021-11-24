@@ -46,4 +46,9 @@ ConsoleAppender sangat cocok ketika applikasi yang dibuat dibungkus dalam docker
 Terkadang saat menyimpan semua log event di file, lama-lama file tersebut akan terlalu besar. Logback menyediakan RollingFileAppender, yaitu appender yang menyimpan data nya di file, namun bisa dilakukan rolling, artinya per waktu tertentu akan dibuatkan file baru. Selain itu bisa juga set maksimal ukuran file nya sehingga ketika sudah mencapai batas maksimal, akan dibuatkan file baru lagi. Ini lebih direkomendasikan untuk digunakan dibandingkan menggunakan FileAppender.
 
 - ## Layout
-Layout adalah 
+Layout adalah komponen dalam logback yang digunakan untuk melakukan transformasi dari LogEvent menjadi String.
+http://logback.qos.ch/manual/layouts.html
+- PatternLayout, secara default, layout di logback menggunakan PatternLayout. PatternLayout merupakan layout yang memiliki banyak pettern yang bisa digunakan untuk menampilkan representasi String dari log event.
+- Conversion Word, untuk melihat lebih detail apa saja yang bisa digunakan dalam pettern layout.
+  http://logback.qos.ch/manual/layouts.html#conversionWord
+- 
