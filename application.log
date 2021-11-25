@@ -3,3 +3,106 @@
 05:37:19.223 [main] INFO  com.yeahbutstill.LevelTest - Info
 05:37:19.224 [main] WARN  com.yeahbutstill.LevelTest - Warning
 05:37:19.224 [main] ERROR com.yeahbutstill.LevelTest - Error
+07:11:38.690 [main] TRACE com.yeahbutstill.LevelTest - Trace
+07:11:38.692 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+07:11:38.692 [main] INFO  com.yeahbutstill.LevelTest - Info
+07:11:38.692 [main] WARN  com.yeahbutstill.LevelTest - Warning
+07:11:38.693 [main] ERROR com.yeahbutstill.LevelTest - Error
+07:11:41.805 [main] TRACE com.yeahbutstill.LevelTest - Trace
+07:11:41.807 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+07:11:41.807 [main] INFO  com.yeahbutstill.LevelTest - Info
+07:11:41.808 [main] WARN  com.yeahbutstill.LevelTest - Warning
+07:11:41.808 [main] ERROR com.yeahbutstill.LevelTest - Error
+07:11:44.812 [main] TRACE com.yeahbutstill.LevelTest - Trace
+07:11:44.814 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+07:11:44.814 [main] INFO  com.yeahbutstill.LevelTest - Info
+07:11:44.814 [main] WARN  com.yeahbutstill.LevelTest - Warning
+07:11:44.814 [main] ERROR com.yeahbutstill.LevelTest - Error
+07:11:47.868 [main] TRACE com.yeahbutstill.LevelTest - Trace
+07:11:47.869 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+07:11:47.869 [main] INFO  com.yeahbutstill.LevelTest - Info
+07:11:47.870 [main] WARN  com.yeahbutstill.LevelTest - Warning
+07:11:47.870 [main] ERROR com.yeahbutstill.LevelTest - Error
+07:11:58.377 [main] TRACE com.yeahbutstill.LevelTest - Trace
+07:11:58.380 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+07:11:58.381 [main] INFO  com.yeahbutstill.LevelTest - Info
+07:11:58.381 [main] WARN  com.yeahbutstill.LevelTest - Warning
+07:11:58.382 [main] ERROR com.yeahbutstill.LevelTest - Error
+07:12:01.529 [main] TRACE com.yeahbutstill.LevelTest - Trace
+07:12:01.531 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+07:12:01.531 [main] INFO  com.yeahbutstill.LevelTest - Info
+07:12:01.531 [main] WARN  com.yeahbutstill.LevelTest - Warning
+07:12:01.532 [main] ERROR com.yeahbutstill.LevelTest - Error
+07:12:07.219 [main] TRACE com.yeahbutstill.LevelTest - Trace
+07:12:07.221 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+07:12:07.222 [main] INFO  com.yeahbutstill.LevelTest - Info
+07:12:07.222 [main] WARN  com.yeahbutstill.LevelTest - Warning
+07:12:07.222 [main] ERROR com.yeahbutstill.LevelTest - Error
+2021-11-25 07:12:43.803 [main] TRACE com.yeahbutstill.LevelTest - Trace
+2021-11-25 07:12:43.805 [main] DEBUG com.yeahbutstill.LevelTest - Debug
+2021-11-25 07:12:43.805 [main] INFO  com.yeahbutstill.LevelTest - Info
+2021-11-25 07:12:43.806 [main] WARN  com.yeahbutstill.LevelTest - Warning
+2021-11-25 07:12:43.806 [main] ERROR com.yeahbutstill.LevelTest - Error
+2021-11-25 07:16:12.896 [main] INFO  c.y.controller.MyController - cc6f2c3d-315b-463f-9573-2911623ade7a - Controller Save
+2021-11-25 07:16:13.278 [main] INFO  com.yeahbutstill.service.MyService - cc6f2c3d-315b-463f-9573-2911623ade7a - Service Save
+2021-11-25 07:16:13.278 [main] INFO  com.yeahbutstill.repo.MyRepository - cc6f2c3d-315b-463f-9573-2911623ade7a - Repository Save
+2021-11-25 07:17:26.616 [main] INFO  c.y.controller.MyController - 551e91cc-ac7c-4b06-9da2-d591e32f59d5 - Controller Save
+2021-11-25 07:17:26.619 [main] INFO  com.yeahbutstill.service.MyService - 551e91cc-ac7c-4b06-9da2-d591e32f59d5 - Service Save
+2021-11-25 07:17:26.619 [main] INFO  com.yeahbutstill.repo.MyRepository - 551e91cc-ac7c-4b06-9da2-d591e32f59d5 - Repository Save
+2021-11-25 07:17:29.955 [main] INFO  c.y.controller.MyController - 8488bf06-4c42-4030-a79b-9d6fc9bba475 - Controller Save
+2021-11-25 07:17:29.959 [main] INFO  com.yeahbutstill.service.MyService - 8488bf06-4c42-4030-a79b-9d6fc9bba475 - Service Save
+2021-11-25 07:17:29.959 [main] INFO  com.yeahbutstill.repo.MyRepository - 8488bf06-4c42-4030-a79b-9d6fc9bba475 - Repository Save
+2021-11-25 07:17:33.053 [main] INFO  c.y.controller.MyController - 6e52c9b4-bc01-41b7-ae1c-77cadee8dbdc - Controller Save
+2021-11-25 07:17:33.059 [main] INFO  com.yeahbutstill.service.MyService - 6e52c9b4-bc01-41b7-ae1c-77cadee8dbdc - Service Save
+2021-11-25 07:17:33.059 [main] INFO  com.yeahbutstill.repo.MyRepository - 6e52c9b4-bc01-41b7-ae1c-77cadee8dbdc - Repository Save
+2021-11-25 07:17:38.988 [main] INFO  c.y.controller.MyController - f01abd2c-d868-4407-8d3c-f2b296a7ea72 - Controller Save
+2021-11-25 07:17:38.995 [main] INFO  com.yeahbutstill.service.MyService - f01abd2c-d868-4407-8d3c-f2b296a7ea72 - Service Save
+2021-11-25 07:17:38.996 [main] INFO  com.yeahbutstill.repo.MyRepository - f01abd2c-d868-4407-8d3c-f2b296a7ea72 - Repository Save
+2021-11-25 07:17:43.425 [main] INFO  c.y.controller.MyController - 189ac9cd-3fed-4fa7-8f02-a05780debefb - Controller Save
+2021-11-25 07:17:43.431 [main] INFO  com.yeahbutstill.service.MyService - 189ac9cd-3fed-4fa7-8f02-a05780debefb - Service Save
+2021-11-25 07:17:43.432 [main] INFO  com.yeahbutstill.repo.MyRepository - 189ac9cd-3fed-4fa7-8f02-a05780debefb - Repository Save
+2021-11-25 07:17:47.061 [main] INFO  c.y.controller.MyController - 6a79ddc3-da5a-450b-97d9-49c95787a9db - Controller Save
+2021-11-25 07:17:47.064 [main] INFO  com.yeahbutstill.service.MyService - 6a79ddc3-da5a-450b-97d9-49c95787a9db - Service Save
+2021-11-25 07:17:47.064 [main] INFO  com.yeahbutstill.repo.MyRepository - 6a79ddc3-da5a-450b-97d9-49c95787a9db - Repository Save
+2021-11-25 07:17:50.691 [main] INFO  c.y.controller.MyController - 447a86b7-4c25-4cd6-b02f-9de8da8b8fee - Controller Save
+2021-11-25 07:17:50.696 [main] INFO  com.yeahbutstill.service.MyService - 447a86b7-4c25-4cd6-b02f-9de8da8b8fee - Service Save
+2021-11-25 07:17:50.696 [main] INFO  com.yeahbutstill.repo.MyRepository - 447a86b7-4c25-4cd6-b02f-9de8da8b8fee - Repository Save
+2021-11-25 07:17:57.586 [main] INFO  c.y.controller.MyController - 95f9093b-c606-45e6-847d-7f41c4b84580 - Controller Save
+2021-11-25 07:17:57.589 [main] INFO  com.yeahbutstill.service.MyService - 95f9093b-c606-45e6-847d-7f41c4b84580 - Service Save
+2021-11-25 07:17:57.589 [main] INFO  com.yeahbutstill.repo.MyRepository - 95f9093b-c606-45e6-847d-7f41c4b84580 - Repository Save
+2021-11-25 07:18:41.776 [main] INFO  c.y.controller.MyController - 26a2a09c-5e83-47df-bfb1-ea557bec4645 - Controller Save
+2021-11-25 07:18:41.780 [main] INFO  com.yeahbutstill.service.MyService - 26a2a09c-5e83-47df-bfb1-ea557bec4645 - Service Save
+2021-11-25 07:18:41.780 [main] INFO  com.yeahbutstill.repo.MyRepository - 26a2a09c-5e83-47df-bfb1-ea557bec4645 - Repository Save
+2021-11-25 07:18:47.133 [main] INFO  c.y.controller.MyController - b04db606-f82b-4a10-93f9-4cf46df98bb5 - Controller Save
+2021-11-25 07:18:47.139 [main] INFO  com.yeahbutstill.service.MyService - b04db606-f82b-4a10-93f9-4cf46df98bb5 - Service Save
+2021-11-25 07:18:47.140 [main] INFO  com.yeahbutstill.repo.MyRepository - b04db606-f82b-4a10-93f9-4cf46df98bb5 - Repository Save
+2021-11-25 07:18:50.449 [main] INFO  c.y.controller.MyController - f3601bff-e3ed-4c8c-8d19-06097af95a1e - Controller Save
+2021-11-25 07:18:50.452 [main] INFO  com.yeahbutstill.service.MyService - f3601bff-e3ed-4c8c-8d19-06097af95a1e - Service Save
+2021-11-25 07:18:50.452 [main] INFO  com.yeahbutstill.repo.MyRepository - f3601bff-e3ed-4c8c-8d19-06097af95a1e - Repository Save
+2021-11-25 07:19:20.159 [main] INFO  c.y.controller.MyController - 79e124a5-886a-434e-848e-8c5d4f70c296 - Controller Save
+2021-11-25 07:19:20.164 [main] INFO  com.yeahbutstill.service.MyService - 79e124a5-886a-434e-848e-8c5d4f70c296 - Service Save
+2021-11-25 07:19:20.164 [main] INFO  com.yeahbutstill.repo.MyRepository - 79e124a5-886a-434e-848e-8c5d4f70c296 - Repository Save
+2021-11-25 07:20:11.802 [main] INFO  c.y.controller.MyController - b52a8a7a-20c6-4b92-a72d-98ea760dca37 - Controller Save
+2021-11-25 07:20:11.807 [main] INFO  com.yeahbutstill.service.MyService - b52a8a7a-20c6-4b92-a72d-98ea760dca37 - Service Save
+2021-11-25 07:20:11.808 [main] INFO  com.yeahbutstill.repo.MyRepository - b52a8a7a-20c6-4b92-a72d-98ea760dca37 - Repository Save
+2021-11-25 07:20:17.985 [main] INFO  c.y.controller.MyController - 5789e668-1b31-4bb1-a5ef-525937ee148d - Controller Save
+2021-11-25 07:20:17.988 [main] INFO  com.yeahbutstill.service.MyService - 5789e668-1b31-4bb1-a5ef-525937ee148d - Service Save
+2021-11-25 07:20:17.988 [main] INFO  com.yeahbutstill.repo.MyRepository - 5789e668-1b31-4bb1-a5ef-525937ee148d - Repository Save
+2021-11-25 07:20:20.875 [main] INFO  c.y.controller.MyController - d80cb299-20e3-4849-b4b9-f2d58ed8b013 - Controller Save
+2021-11-25 07:20:20.879 [main] INFO  com.yeahbutstill.service.MyService - d80cb299-20e3-4849-b4b9-f2d58ed8b013 - Service Save
+2021-11-25 07:20:20.880 [main] INFO  com.yeahbutstill.repo.MyRepository - d80cb299-20e3-4849-b4b9-f2d58ed8b013 - Repository Save
+2021-11-25 07:20:24.583 [main] INFO  c.y.controller.MyController - 91d525eb-2d8d-4928-b9d9-d31e8947b2be - Controller Save
+2021-11-25 07:20:24.591 [main] INFO  com.yeahbutstill.service.MyService - 91d525eb-2d8d-4928-b9d9-d31e8947b2be - Service Save
+2021-11-25 07:20:24.591 [main] INFO  com.yeahbutstill.repo.MyRepository - 91d525eb-2d8d-4928-b9d9-d31e8947b2be - Repository Save
+2021-11-25 07:20:31.295 [main] INFO  c.y.controller.MyController - 0a3b888a-2aec-4551-a706-70bf6e3ea584 - Controller Save
+2021-11-25 07:20:31.298 [main] INFO  com.yeahbutstill.service.MyService - 0a3b888a-2aec-4551-a706-70bf6e3ea584 - Service Save
+2021-11-25 07:20:31.298 [main] INFO  com.yeahbutstill.repo.MyRepository - 0a3b888a-2aec-4551-a706-70bf6e3ea584 - Repository Save
+09:27:34.196 [main] INFO  c.y.controller.MyController [] - 30818ed7-5ad4-4cba-8ee3-4584117c3ae6 - Controller Save
+09:27:34.198 [main] INFO  com.yeahbutstill.service.MyService [] - 30818ed7-5ad4-4cba-8ee3-4584117c3ae6 - Service Save
+09:27:34.198 [main] INFO  com.yeahbutstill.repo.MyRepository [] - 30818ed7-5ad4-4cba-8ee3-4584117c3ae6 - Repository Save
+09:30:46.774 [main] INFO  c.y.controller.MyController [ebac891c-48a3-4543-812d-2f1b26ddd5fc] - ebac891c-48a3-4543-812d-2f1b26ddd5fc - Controller Save
+09:30:46.777 [main] INFO  com.yeahbutstill.service.MyService [ebac891c-48a3-4543-812d-2f1b26ddd5fc] - ebac891c-48a3-4543-812d-2f1b26ddd5fc - Service Save
+09:30:46.777 [main] INFO  com.yeahbutstill.repo.MyRepository [ebac891c-48a3-4543-812d-2f1b26ddd5fc] - ebac891c-48a3-4543-812d-2f1b26ddd5fc - Repository Save
+09:38:24.960 [main] INFO  c.y.controller.MyController [256e2b91-7ef0-443f-b69b-ab1cb086c218] - Controller Save
+09:38:24.961 [main] INFO  com.yeahbutstill.service.MyService [256e2b91-7ef0-443f-b69b-ab1cb086c218] - Service Save
+09:38:24.962 [main] INFO  com.yeahbutstill.repo.MyRepository [256e2b91-7ef0-443f-b69b-ab1cb086c218] - Repository Save

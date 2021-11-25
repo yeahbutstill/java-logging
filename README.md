@@ -51,4 +51,12 @@ http://logback.qos.ch/manual/layouts.html
 - PatternLayout, secara default, layout di logback menggunakan PatternLayout. PatternLayout merupakan layout yang memiliki banyak pettern yang bisa digunakan untuk menampilkan representasi String dari log event.
 - Conversion Word, untuk melihat lebih detail apa saja yang bisa digunakan dalam pettern layout.
   http://logback.qos.ch/manual/layouts.html#conversionWord
-- 
+
+## Mapped Diagnostic Context
+Ketika membuat aplikasi, biasanya aplikasi akan diakses oleh banyak sekali user, artinya mungkin bisa diakses oleh banyak thread. MDC(Mapped Diagnostic Context) merupakan fitur seperti thread local, yang dimana bisa memberi informasi tambahan kepada logger tanpa harus kirim data tersebut secara manual ke class atau method.
+- Contoh Aplikasi
+    - Saat membuat aplikasi terkadang ingin melakukan log seperti request-id dan di semua log, akan ditambahkan request-id, agar mengetahui log ini muncul dari request siapa. Biasanya yang dilakukan adalah mengirim request-id dari class pertama sampai class terakhir, biasanya via parameter.
+    - buat class Controller, Service, Repository. Controller akan memanggil Service dan Service akan memanggil Repository. Setiap method tambahkan parameter requestId dan tiap method, log informasi requestId tersebut.
+- Menggunakan MDC, mirip dengan Map dimana bisa menambahkan data dengan key dan juga menghapusnya. Saat menggunakan MDC, secara otomatis data di MDC bisa diakses dengan logger.
+  http://www.slf4j.org/apidocs/org/slf4j/MDC.html
+- Multi Thread, Data MDC disimpan dalam ThreadLocal, artinya selama didalan thread yang sama bisa mengakses data di MDC. Oleh karena itu jika membuat aplikasi berbasis multithread, selama satu user mendapat satu thread bisa menggunakan MDC. Namun jika aplikasi sudah reactive, yang tidak jelas thread mana yang memproses method mana, maka tidak bisa menggunakan fitur MDC lagi.
